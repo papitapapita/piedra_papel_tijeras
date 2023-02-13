@@ -1,1 +1,1 @@
-# piedra_papel_tijeras
+# Piedra Papel o Tijeras
