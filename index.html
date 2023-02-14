@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Rock, paper and scissors</h1>
+    <form>
+        <div class="optionContainer">
+            <input id="rock" type="radio" name="color" value="rock">
+            <label for="rock">Rock</label>
+        </div>
+        <div class="optionContainer">
+            <input id="paper" type="radio" name="color" value="paper">
+            <label for="paper">Paper</label>
+        </div>
+        <div class="optionContainer">
+            <input id="scissors" type="radio" name="color" value="scissors">
+            <label for="scissors">Scissors</label>
+        </div>
+        <input id="play" type="button" value="Play!">
+        <p>
+            <span class="pcChoice">PC: </span>
+            <span class="userChoice">You: </span>
+            <span class="result"></span>
+        </p>
+    </form>
+    <script src="script.js"></script>
 </body>
 </html>
